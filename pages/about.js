@@ -29,7 +29,7 @@ const About = () => {
         </ul>
       <div>
         <h1>Contact</h1>
-        <Link href="/">
+        <Link href="mailto:marcellee.mendess@gmail.com">
           <a className={styles.btn}>
             <FontAwesomeIcon icon="envelope" className={styles.icon}/>
             E-mail
