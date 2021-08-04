@@ -24,7 +24,8 @@
   font-weight: 600;
   font-size: 80px;
 }
-cz .container p {
+
+.container p {
   margin: 30px;
   display: flex;
   flex-wrap: wrap;
@@ -70,4 +71,18 @@ cz .container p {
 /* Media queries */
 
 @media only screen and (max-width: 600px) {
+  .heading {
+    font-size: 41px;
+  }
+
+  .container p {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .buttons {
+    display: grid;
+    margin: 50px;
+  }
 }
