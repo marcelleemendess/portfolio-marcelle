@@ -1,0 +1,20 @@
+/*To remove the default margin and padding*/
+
+/* @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap'); */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  /* background: white; */
+  background: linear-gradient(#0087ca, white);
+}
+
+img {
+  width: 100%;
+  object-fit: contain;
+}

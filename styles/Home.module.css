@@ -1,0 +1,146 @@
+/* .container {
+  display: grid;
+  align-items: center;
+  max-width: 120rem;
+  margin: 45px;
+  width: 90%;
+  background: blue;
+} */
+
+.container {
+  width: 100%;
+  padding: 70px 0px 70px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container h1 {
+  margin: 30px;
+}
+
+.heading {
+  position: relative;
+  font-weight: 600;
+  font-size: 80px;
+}
+
+.container p {
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 25px;
+  color: #333333;
+}
+
+.info {
+  max-width: 80rem;
+  line-height: 1.7;
+}
+
+.container a {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  text-transform: uppercase;
+  width: 200px;
+  color: #0087ca;
+  position: relative;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  border: 3px solid #0087ca;
+}
+
+.buttons {
+  margin: 30px;
+}
+
+.btn:hover {
+  background: #0087ca;
+  color: white;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .heading {
+    position: relative;
+    /* font-weight: 600; */
+    font-size: 60px;
+  }
+
+  .btn {
+    width: 90%;
+    display: block;
+    justify-content: center;
+  }
+
+  .heading {
+    position: relative;
+    font-weight: 300;
+    font-size: 50px;
+  }
+}
+
+/* Media Queries */
+
+/* @media only screen and (max-width: 735px) {
+  .container p {
+    font-size: 18px;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .heading {
+    font-size: 40px;
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+  }
+
+  .btn {
+    width: 150px;
+    font-size: 15px;
+  }
+} */
+
+/*
+@media only screen and (max-width: 632px) {
+  .container {
+    display: grid;
+  }
+
+  .heading {
+    font-size: 50px;
+  }
+
+  .container p {
+    font-size: 18px;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  .btn {
+    width: 150px;
+    font-size: 15px;
+  }
+} */
