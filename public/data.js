@@ -3,8 +3,8 @@ export const projectData = [
         projectName: "E-commerce",
         description:"The project is a E-commerce store where you can purchase electronics. It's possible to ad and remove products to your cart and calculate the amount spent it.",
         codeLink:"https://github.com/marcelleemendess/ecommerce",
-        liveLink: "https://ecommerce-amber-omega.vercel.app/",
-        img: "bookshelf.png"
+        liveLink: "https://competent-mayer-1fd506.netlify.app/",
+        img: "ecommerce.png"
     },
      {   id: "2",
         projectName: "Bookshelf",
@@ -21,14 +21,6 @@ export const projectData = [
         liveLink: "https://todolist-five-teal.vercel.app/",
         img: "todo.png"
         
-    },
-    {
-       id: "4",
-        projectName: "E-commerce",
-        description:"The project is a E-commerce store where you can purchase electronics. It's possible to ad and remove products to your cart and calculate the amount spent it.",
-        codeLink:"https://github.com/marcelleemendess/ecommerce",
-        liveLink: "https://ecommerce-amber-omega.vercel.app/",
-        img: "bookshelf.png"
     }
      
 ]
