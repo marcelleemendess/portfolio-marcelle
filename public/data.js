@@ -16,7 +16,7 @@ export const projectData = [
     {
        id: "3",
         projectName: "To Do List",
-        description:"The project is a web application used to look up Books. It's possible to find the books easily using ISBN, title, or author.",
+        description:"The project is a functional To-do list application with authentication, you can create an account and add, complete or delete your tasks.",
         codeLink:"https://github.com/marcelleemendess/todolist",
         liveLink: "https://todolist-five-teal.vercel.app/",
         img: "todo.png"
