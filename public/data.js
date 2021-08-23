@@ -21,6 +21,15 @@ export const projectData = [
         liveLink: "https://todolist-five-teal.vercel.app/",
         img: "todo.png"
         
+    },
+    {
+       id: "4",
+        projectName: "Netflix Clone",
+        description:"A Netflix clone built using React. It fetches the data from TMDB (The Movie Database) API. It also displays the movie trailers which are fetched from Youtube.",
+        codeLink:"https://github.com/marcelleemendess/netflix-clone",
+        liveLink: "https://dazzling-blackwell-399e74.netlify.app",
+        img: "netflix.png"
+        
     }
      
 ]
