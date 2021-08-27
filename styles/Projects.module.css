@@ -61,11 +61,13 @@
   font-size: 20px;
   cursor: pointer;
   border: 3px solid #0087ca;
+  transition: transform 450ms;
 }
 
 .card__btn:hover {
   background-color: white;
   color: #0087ca;
+  transform: scale(1.08);
 }
 
 /* Media queries */

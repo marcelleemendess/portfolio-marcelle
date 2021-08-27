@@ -13,6 +13,7 @@ const Home = () => {
         <p>My name is Marcelle Mendes and I'm a passionate software developer using web
           technologies to build products and focusing on solving problems with the power of technology.
         </p>
+        <img src="img/marcelle.jpg" alt=""/>
       </div>
       <div className={styles.buttons}>
         <Link href="/about">

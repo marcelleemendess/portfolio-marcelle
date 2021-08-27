@@ -65,11 +65,13 @@
   font-size: 25px;
   cursor: pointer;
   border: 3px solid #0087ca;
+  transition: transform 450ms;
 }
 
 .btn:hover {
   background: white;
   color: #0087ca;
+  transform: scale(1.08);
 }
 
 .icon {

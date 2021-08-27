@@ -17,7 +17,8 @@ const About = () => {
         <ul className={styles.skills}>
         <li className={styles.skill}>Html</li>
         <li className={styles.skill}>Css</li>
-        <li className={styles.skill}>Javascript</li>
+        <li className={styles.skill}>TypeScript</li>
+        <li className={styles.skill}>JavaScript</li>
         <li className={styles.skill}>React</li>
         <li className={styles.skill}>React Hooks</li>
         <li className={styles.skill}>Redux</li>
